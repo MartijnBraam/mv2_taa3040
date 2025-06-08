@@ -155,130 +155,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transformer:Wuerth_750315371"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -782,131 +658,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VDC"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "1 : 1.1"
 		(exclude_from_sim no)
@@ -934,6 +685,10 @@
 		(at 128.27 91.44)
 		(uuid "547c97f3-9ab6-4b7e-99d1-6fd74ff61a00")
 	)
+	(no_connect
+		(at 138.43 91.44)
+		(uuid "c1843639-4942-40c2-8cda-0fcde58162da")
+	)
 	(wire
 		(pts
 			(xy 119.38 82.55) (xy 124.46 82.55)
@@ -953,16 +708,6 @@
 			(type default)
 		)
 		(uuid "1f739e45-ef09-4adc-9f0c-adcbc0dd6376")
-	)
-	(wire
-		(pts
-			(xy 149.86 69.85) (xy 149.86 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ae8faa6-ffcb-4334-a595-d3e3211fc574")
 	)
 	(wire
 		(pts
@@ -1046,16 +791,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 91.44) (xy 149.86 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3e6c60d-4827-497c-8014-2b202cf57b21")
-	)
-	(wire
-		(pts
 			(xy 119.38 100.33) (xy 124.46 100.33)
 		)
 		(stroke
@@ -1136,16 +871,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 91.44) (xy 149.86 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c140b59a-6173-4bc5-b17a-9aed4e5b6d50")
-	)
-	(wire
-		(pts
 			(xy 157.48 82.55) (xy 163.83 82.55)
 		)
 		(stroke
@@ -1174,6 +899,17 @@
 		)
 		(uuid "e2b67411-c22f-4eeb-bd35-5ff6b3c03234")
 	)
+	(hierarchical_label "PHANTOM"
+		(shape input)
+		(at 85.09 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27e99434-f306-43ec-8931-831720aa6d68")
+	)
 	(hierarchical_label "HOT"
 		(shape output)
 		(at 163.83 82.55 0)
@@ -1195,17 +931,6 @@
 			(justify left)
 		)
 		(uuid "b6aa79fe-00df-45c5-a8ca-c292c06f3ae7")
-	)
-	(hierarchical_label "PHANTOM_PULLDOWN"
-		(shape input)
-		(at 85.09 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c14d54de-6573-40fc-953e-a0fee10187aa")
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
@@ -1559,80 +1284,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 149.86 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5eadc7d-5695-4cf9-878c-0ff380a8acd5")
-		(property "Reference" "R?"
-			(at 152.4 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 152.4 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 148.082 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 149.86 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d229d0a9-9335-4643-be78-f0239fa81227")
-		)
-		(pin "1"
-			(uuid "6abecd21-ab2f-40ea-897d-0162c73bcd60")
-		)
-		(instances
-			(project "mv2_taa3040"
-				(path "/41a55a1d-5108-482f-b313-9eaa5d011dff/1c3f6b07-c9aa-4f11-804b-09faf49e24ef"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/41a55a1d-5108-482f-b313-9eaa5d011dff/bd2f1d91-73ea-4344-9315-80da99bbdd84"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 149.86 120.65 90)
 		(mirror x)
@@ -1798,76 +1449,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDC")
-		(at 149.86 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afa7572d-0f2d-4a6c-ac72-85e30b48f188")
-		(property "Reference" "#PWR024"
-			(at 149.86 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VREF"
-			(at 149.86 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 149.86 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94a7aae4-9df0-48c3-b974-365c36976280")
-		)
-		(instances
-			(project "mv2_taa3040"
-				(path "/41a55a1d-5108-482f-b313-9eaa5d011dff/1c3f6b07-c9aa-4f11-804b-09faf49e24ef"
-					(reference "#PWR024")
-					(unit 1)
-				)
-				(path "/41a55a1d-5108-482f-b313-9eaa5d011dff/bd2f1d91-73ea-4344-9315-80da99bbdd84"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 149.86 110.49 270)
 		(mirror x)
@@ -2004,9 +1585,9 @@
 				(justify right)
 			)
 		)
-		(pin "PHANTOM_PULLDOWN" input
+		(pin "PHANTOM" input
 			(at 90.17 91.44 180)
-			(uuid "79ad7533-3604-4dbc-abc0-24332794683e")
+			(uuid "67c2e633-49c0-436a-8fb6-5b065faaa7cf")
 			(effects
 				(font
 					(size 1.27 1.27)

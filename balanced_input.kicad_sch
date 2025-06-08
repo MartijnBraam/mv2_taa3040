@@ -591,17 +591,6 @@
 		)
 		(uuid "dac1f1e1-fb9c-44c4-9673-c730da030545")
 	)
-	(hierarchical_label "PHANTOM_PULLDOWN"
-		(shape input)
-		(at 97.79 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "46f8026b-5dc9-4942-9149-c206cf16cf5c")
-	)
 	(hierarchical_label "COLD"
 		(shape output)
 		(at 173.99 87.63 0)
@@ -612,6 +601,17 @@
 			(justify left)
 		)
 		(uuid "6c148bd1-b196-4691-b252-0a0b7a6ec8f8")
+	)
+	(hierarchical_label "PHANTOM"
+		(shape input)
+		(at 97.79 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a560b124-1a6d-445e-88e9-6dc8f1eb99f9")
 	)
 	(hierarchical_label "HOT"
 		(shape output)
@@ -1366,9 +1366,9 @@
 				(justify right)
 			)
 		)
-		(pin "PHANTOM_PULLDOWN" input
+		(pin "PHANTOM" input
 			(at 102.87 78.74 180)
-			(uuid "fab3a8b7-f9da-48b2-a139-698edc3558a7")
+			(uuid "733a23e3-b474-4bb3-b221-33dc0028ce40")
 			(effects
 				(font
 					(size 1.27 1.27)
