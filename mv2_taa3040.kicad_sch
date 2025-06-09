@@ -2893,7 +2893,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C 100nF 16V 0805"
+		(property "MPN" "C 100nF 16V 0603"
 			(at 219.71 54.61 0)
 			(effects
 				(font
@@ -3077,7 +3077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 171.45 62.23 0)
 			(effects
 				(font
@@ -3385,7 +3385,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R 100kΩ 125mW 5% 0805"
+		(property "MPN" "R 100kΩ 125mW 5% 0603"
 			(at 30.48 102.87 0)
 			(effects
 				(font
@@ -3567,7 +3567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 229.87 54.61 0)
 			(effects
 				(font
@@ -3738,7 +3738,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C 100nF 16V 0805"
+		(property "MPN" "C 100nF 16V 0603"
 			(at 179.07 45.72 0)
 			(effects
 				(font
@@ -3816,7 +3816,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R 100kΩ 125mW 5% 0805"
+		(property "MPN" "R 100kΩ 125mW 5% 0603"
 			(at 233.68 115.57 0)
 			(effects
 				(font
@@ -4091,7 +4091,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C 100nF 16V 0805"
+		(property "MPN" "C 100nF 16V 0603"
 			(at 200.66 45.72 0)
 			(effects
 				(font
@@ -4240,7 +4240,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C 100nF 16V 0805"
+		(property "MPN" "C 100nF 16V 0603"
 			(at 156.21 54.61 0)
 			(effects
 				(font
@@ -4585,7 +4585,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R 100kΩ 125mW 5% 0805"
+		(property "MPN" "R 100kΩ 125mW 5% 0603"
 			(at 22.86 102.87 0)
 			(effects
 				(font
@@ -4849,7 +4849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 210.82 45.72 0)
 			(effects
 				(font
@@ -5189,7 +5189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 170.18 45.72 0)
 			(effects
 				(font
@@ -5492,7 +5492,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R 100kΩ 125mW 5% 0805"
+		(property "MPN" "R 100kΩ 125mW 5% 0603"
 			(at 224.79 115.57 0)
 			(effects
 				(font
@@ -5884,7 +5884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 147.32 54.61 0)
 			(effects
 				(font
